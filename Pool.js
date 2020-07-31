@@ -1,3 +1,5 @@
+const Connection = require('./Connection');
+
 class Pool {
     constructor(pool) {
         this.pool = pool;
